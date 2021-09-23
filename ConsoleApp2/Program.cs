@@ -6,6 +6,9 @@ namespace ConsoleApp2
   {
     static void Main(string[] args)
     {
+      //2) Faça um programa que leia N números inteiros e armazene-os em um vetor.Em seguida, mostre na tela:
+      //-todos os números pares
+      //-a quantidade de números pares
       int n = int.Parse(Console.ReadLine());
 
       int[] valor;
