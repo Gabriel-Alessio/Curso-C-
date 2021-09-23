@@ -11,27 +11,25 @@ namespace ConsoleApp1
       //do vetor(supor não haver empates).Mostrar também a posição do maior elemento
     
       int n = int.Parse(Console.ReadLine());
-      double[] valor;
+      double[] vetor = new double[n]; 
       double maior = 0;
 
-      valor = new double[n];
-
-      string[] v = Console.ReadLine().Split(' ');
+      string[] valor = Console.ReadLine().Split(' ');
       int posicao = 0;
 
       for (int i = 0; i < n; i++)
       {
-        valor[i] = double.Parse(v[i], CultureInfo.InvariantCulture); // atribui valores no vetor
+        vetor[i] = double.Parse(valor[i], CultureInfo.InvariantCulture); // atribui valores no vetor
 
         // vai atribuir o primeiro valor na variavel maior para depois ser comparada
         if (i == 0)
         {
-          maior = double.Parse(v[i], CultureInfo.InvariantCulture);
+          maior = double.Parse(valor[i], CultureInfo.InvariantCulture);
         }
         // vai verificar o primeiro valor atribuido com os outros para verificar se tera um maior
-        if (double.Parse(v[i], CultureInfo.InvariantCulture) > maior)
+        if (double.Parse(valor[i], CultureInfo.InvariantCulture) > maior)
         {
-          maior = double.Parse(v[i], CultureInfo.InvariantCulture);
+          maior = double.Parse(valor[i], CultureInfo.InvariantCulture);
           posicao = i;
         }
       }
