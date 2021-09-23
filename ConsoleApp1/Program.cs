@@ -27,7 +27,7 @@ namespace ConsoleApp1
           maior = double.Parse(valor[i], CultureInfo.InvariantCulture);
         }
         // vai verificar o primeiro valor atribuido com os outros para verificar se tera um maior
-        if (double.Parse(valor[i], CultureInfo.InvariantCulture) > maior)
+        if (vetor[i] > maior)
         {
           maior = double.Parse(valor[i], CultureInfo.InvariantCulture);
           posicao = i;
