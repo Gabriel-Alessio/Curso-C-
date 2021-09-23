@@ -13,6 +13,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 4", "Vetor Atv 4\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 5", "Vetor Atv 5\Vetor Atv 5.csproj", "{316B382E-2280-4276-98E2-C701847302DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 6", "Vetor Atv 6\Vetor Atv 6.csproj", "{663720B2-B2C9-45E9-BBEC-000EE109F424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 7", "Vetor Atv 7\Vetor Atv 7.csproj", "{A5805522-FA21-47D3-AA88-661170CAECEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 8", "Vetor Atv 8\Vetor Atv 8.csproj", "{0F2629AE-A950-43F5-9DC1-676EC2C094DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 9", "Vetor Atv 9\Vetor Atv 9.csproj", "{5E6E1232-3D7D-443F-8970-454EA6E10D98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +47,22 @@ Global
 		{316B382E-2280-4276-98E2-C701847302DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316B382E-2280-4276-98E2-C701847302DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316B382E-2280-4276-98E2-C701847302DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663720B2-B2C9-45E9-BBEC-000EE109F424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663720B2-B2C9-45E9-BBEC-000EE109F424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663720B2-B2C9-45E9-BBEC-000EE109F424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663720B2-B2C9-45E9-BBEC-000EE109F424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5805522-FA21-47D3-AA88-661170CAECEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5805522-FA21-47D3-AA88-661170CAECEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5805522-FA21-47D3-AA88-661170CAECEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5805522-FA21-47D3-AA88-661170CAECEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2629AE-A950-43F5-9DC1-676EC2C094DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2629AE-A950-43F5-9DC1-676EC2C094DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2629AE-A950-43F5-9DC1-676EC2C094DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2629AE-A950-43F5-9DC1-676EC2C094DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6E1232-3D7D-443F-8970-454EA6E10D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6E1232-3D7D-443F-8970-454EA6E10D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6E1232-3D7D-443F-8970-454EA6E10D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6E1232-3D7D-443F-8970-454EA6E10D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
