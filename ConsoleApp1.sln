@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 3", "Vetor Atv 3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 4", "Vetor Atv 4\Vetor Atv 4.csproj", "{F33EF4A3-DB27-4C27-AB24-63DFA60C9455}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vetor Atv 5", "Vetor Atv 5\Vetor Atv 5.csproj", "{316B382E-2280-4276-98E2-C701847302DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F33EF4A3-DB27-4C27-AB24-63DFA60C9455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33EF4A3-DB27-4C27-AB24-63DFA60C9455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33EF4A3-DB27-4C27-AB24-63DFA60C9455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316B382E-2280-4276-98E2-C701847302DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316B382E-2280-4276-98E2-C701847302DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316B382E-2280-4276-98E2-C701847302DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316B382E-2280-4276-98E2-C701847302DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
