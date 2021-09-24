@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Matriz_Atv_2
+namespace Matriz_Atv_3
 {
   class Program
   {
@@ -18,14 +18,22 @@ namespace Matriz_Atv_2
           mat[i, j] = int.Parse(aux[j]); //adiciona os valores nas linhas i e nas colunas j
         }
       }
+      int maior = 0;
+      // os dois for percore todos os valores
       for (var i = 0; i < n; i++)
       {
-        var sum = 0;
         for (var j = 0; j < n; j++)
         {
-          sum += mat[i, j]; // percorre todos os valores e vai fazer a soma de todas as linhas 
+          if (j == 0)
+          {
+            maior = (mat[i, j]); // primeriro valor sempre vai ser 0 então ele sempre vai atribuir o primeiro valor a variavel maior
+          }
+          if (mat[i, j] > maior)
+          {
+            maior = (mat[i, j]); // caso um novo valor for maior que o valor maior digirado, atribuira esse novo valor para variavel 
+          }
         }
-        Console.WriteLine(sum);
+        Console.WriteLine(maior);
       }
     }
   }

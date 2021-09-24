@@ -17,7 +17,7 @@ namespace Matriz_Atv_1
         aux = Console.ReadLine().Split(' ');
         for (var j = 0; j < n; j++)
         {
-          mat[i, j] = int.Parse(aux[j]); //adiciona os valores nas linha i e na linha j
+          mat[i, j] = int.Parse(aux[j]); //adiciona os valores nas linhas i e nas colunas j
         }
       }
       Console.WriteLine("VALORES NEGATIVOS: ");
